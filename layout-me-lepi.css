@@ -426,3 +426,55 @@ a:hover{
 
 .anak-mokacin{float:left;width:100%;height:60px;display:none;}
 .anak-mokacin:hover{float:left;width:100%;height:60px;background:#1d1d1d;-webkit-transition:all 1s ease; -moz-transition:all 1s ease; -o-transition:all 1s ease; -ms-transition:all 1s ease; transition:all 1s ease;opacity:0.8;filter:alpha(opacity=80)}
+
+/* main iklan<>desktop main */
+#iklan-gratis{
+	background:url(img/wallpaper.jpg)repeat scroll top left;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:0 auto;
+	width:100%;
+	height:100%;
+	overflow:auto;
+	display:none;
+}
+
+.iklan1{background:#011d45;float:left;margin:5px;height:70px; width:280px;}
+.iklan1:hover{background:#00284f;cursor:pointer;float:left;margin:5px;height:70px; width:280px;opacity: 0.5;filter: alpha(opacity=50);}
+
+.cari-yuk{height:30px;width:145px;border:0;background:#00284f;opacity: 0.5;filter: alpha(opacity=50); /* For IE8 and earlier */color:white;}
+.cari-yuk:active{height:30px;width:145px;border:0;background:#fff;opacity:0.8;filter: alpha(opacity=80); /* For IE8 and earlier */color:white;}
+
+#btn1{
+	position:fixed;bottom:20px;left:20px;width:auto;height:auto;opacity:0;filter: alpha(opacity=0);-webkit-transition:All 0.2s ease-in-out;-moz-transition:All 0.1s ease-in-out;
+}
+
+#btn1:hover{
+	position:fixed;
+	width:auto;
+	height:auto;
+	bottom:20px;
+	left:40px;
+	cursor:pointer;
+	border-radius:100%;
+	filter:alpha(opacity=9);
+	opacity:9;
+}
+#btn2{
+	position:fixed;bottom:20px;left:20px;width:auto;height:auto;opacity:0;filter: alpha(opacity=0);-webkit-transition:All 0.2s ease-in-out;-moz-transition:All 0.1s ease-in-out;
+}
+
+#btn2:hover{
+	position:fixed;
+	width:auto;
+	height:auto;
+	bottom:20px;
+	left:40px;
+	cursor:pointer;
+	border-radius:100%;
+	filter:alpha(opacity=9);
+	opacity:9;
+}
