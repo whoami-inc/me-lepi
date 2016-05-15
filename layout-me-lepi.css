@@ -443,7 +443,7 @@ a:hover{
 }
 
 .iklan1{background:#011d45;float:left;margin:5px;height:70px; width:280px;}
-.iklan1:hover{background:#00284f;cursor:pointer;float:left;margin:5px;height:70px; width:280px;opacity: 0.5;filter: alpha(opacity=50);}
+.iklan1:hover{-webkit-transition:all 1s ease; -moz-transition:all 1s ease; -o-transition:all 1s ease; -ms-transition:all 1s ease; transition:all 1s ease;background:#00284f;cursor:pointer;float:left;margin:5px;height:70px; width:280px;opacity: 0.5;filter: alpha(opacity=50);}
 
 .cari-yuk{height:30px;width:145px;border:0;background:#00284f;opacity: 0.5;filter: alpha(opacity=50); /* For IE8 and earlier */color:white;}
 .cari-yuk:active{height:30px;width:145px;border:0;background:#fff;opacity:0.8;filter: alpha(opacity=80); /* For IE8 and earlier */color:white;}
