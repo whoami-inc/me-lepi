@@ -1,10 +1,10 @@
-var vid = document.getElementById("myMp3");
+var x = document.getElementById("myMp3");
 function setNullVolume() { 
-    vid.volume = 0.0;
+    x.volume = 0.0;
 }
 function setFullVolume() { 
-    vid.volume = 0.5;
+    x.volume = 0.5;
 } 
 function setMedVolume() { 
-    vid.volume = 1.0;
+    x.volume = 1.0;
 } 
