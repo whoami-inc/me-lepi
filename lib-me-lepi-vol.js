@@ -1,4 +1,4 @@
-var x = document.getElementById(myMp3);
+var x = document.getElementsByClassName("myMp3");
 function setNullVolume() { 
     x.volume = 0.0;
 }
