@@ -1,0 +1,105 @@
+#apps-main-dong{
+	background:url(img/wallpaper.jpg)repeat scroll top left;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:0 auto;
+	width:100%;
+	height:100%;
+	overflow:auto;
+	display:none;
+}
+
+.cari-yuk{
+	height:20px;
+	width:135px;
+	border:0;
+	background:#00284f;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	color:white;
+}
+
+.cari-yuk:active{
+	background:#fff;
+	opacity:0.8;
+	filter: alpha(opacity=80);
+	color:white;
+}
+
+.tengah-main-apps{
+	width:95%;
+	margin:5px auto;
+}
+
+.iklan1{
+	background:#011d45;
+	float:left;
+	margin:5px;
+	height:70px;
+	width:280px;
+}
+
+.iklan1:hover{
+	background:#00284f;
+	cursor:pointer;
+	float:left;
+	margin:5px;
+	height:70px;
+	width:280px;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.magi-stel{
+	float:left;
+	width:50px;
+	height:50px;
+	margin:5px;
+}
+
+.h-empat-stel{
+	color:white;
+	margin-left:10px;
+	margin-top:10px;
+	float:left;
+	font-family:sans-serif;
+}
+
+.satu-baris{
+	float:left;
+	width:290px;
+	height:115px;
+	margin:5px;
+}
+
+.dua-baris{
+	float:left;
+	width:290px;
+	height:195px;
+	margin:5px;
+}
+
+.tiga-baris{
+	float:left;
+	width:290px;
+	height:275px;
+	margin:5px;
+}
+
+.empat-baris{
+	float:left;
+	width:290px;
+	height:355px;
+	margin:5px;
+}
+
+.abzadah{
+	margin:0;
+	padding:5px;
+	font-family:sans-serif;
+	font-size:20px;
+	color:white;
+}
