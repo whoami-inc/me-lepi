@@ -1,0 +1,381 @@
+#me-sett{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 600;
+	display:none;
+}
+#me-sett-ban{
+    background: burlywood;
+    float: left;
+    width: 258px;
+    height: 100px;
+}
+#me-sett-random{
+	background:burlywood;
+	width:100%;
+	height:100px;
+}
+#me-sett-random-ban{
+	margin:0;
+	color:burlywood;
+}
+#me-sett-tampilan{
+	margin:0 auto;
+	margin-top:-30px;
+	display:none;
+	width: 80%;
+	height:auto;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	-webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+    height: 590px;
+}
+
+#me-sett-protect{
+	margin:0 auto;
+	margin-top:-30px;
+	display:none;
+	width: 80%;
+	height:auto;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	-webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+}
+
+#me-sett-sys{
+	margin:0 auto;
+	display:none;
+	margin-top:-30px;
+	width: 80%;
+	height:auto;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	-webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+}
+#Gumoh{
+	display:none;
+	font-size:20px;
+	padding:5px;
+	font-family:sans-serif;
+}
+.me-sett-tampilan-text{
+	margin-top:2px;
+	background:whitesmoke;
+	padding:3px;
+}
+.me-sett-tampilan-list{
+	margin-top:5px;
+	width:100%;
+	height:40px;
+}
+.me-sett-tampilan-list-kiri{
+	width:50%;
+	height:40px;
+	float:left;
+}
+.me-sett-tampilan-list-kanan{
+	width:30%;
+	height:40px;
+	float:right;
+}
+
+/*	folder
+	template
+*/
+.me-lepi-kehed{
+    width: 100%;
+    height: 30px;
+    background: orange;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.me-lepi-closed{
+    background: #d10000;
+    margin-right: 4px;
+    float: right;
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 20px;
+    font-family: sans-serif;
+}
+.me-lepi-closed:hover{
+	cursor:pointer;
+    background: red;
+    margin-right: 4px;
+    float: right;
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 20px;
+    font-family: sans-serif;
+}
+.me-lepi-tengah{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+	overflow:auto;
+	background:white;
+}
+.me-lepi-tengah-dua{
+    margin: 0;
+    width: 100%;
+    height: 630px;
+}
+.me-lepi-slide {
+    float: left;
+    width: 258px;
+    height: 100%;
+    display: none;
+	background:white;
+}
+.me-lepi-magi{
+    margin-top: 20px;
+    margin-left: 5px;
+    border: 1px solid gray;
+    float: left;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+.me-lepi-inside{
+	width: 258px;
+    height: 100px;
+}
+.me-lepi-list {
+    float: left;
+    width: 258px;
+    height: 40px;
+}
+.me-lepi-list-magi{
+	float: left;
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+}
+.me-lepi-h-satu {
+    float: left;
+    margin-left: 30px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    color: #2d2d2d;
+}
+.me-lepi-h-empat {
+    float: left;
+    font-family: sans-serif;
+    margin-top: -25px;
+    margin-left: 90px;
+    color: #2d2d2d;
+}
+.me-lepi-tengah-more{
+    width: 100%;
+}
+.me-lepi-navi-one{
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    float: left;
+    background: url("https://3.bp.blogspot.com/-7oIPwahYaNM/V0Eif-3KbyI/AAAAAAAABss/nDNlwyjGgdgyP4ATUNEu0JnOyTgns-9FQCLcB/s1600/mobile-nav.png");
+}
+.me-lepi-navi-one:hover{
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    float: left;
+    background: url("https://4.bp.blogspot.com/-bmcCLRpKfl8/V0Ei_t96nTI/AAAAAAAABsw/VS2GDeyDZiAi6ss_9q0VtleGEcYa6hsTQCLcB/s1600/mobile-nav-hov.png");
+}
+.me-lepi-navi-two{
+    cursor: pointer;
+    display: none;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    float: left;
+    background: url("https://4.bp.blogspot.com/-bmcCLRpKfl8/V0Ei_t96nTI/AAAAAAAABsw/VS2GDeyDZiAi6ss_9q0VtleGEcYa6hsTQCLcB/s1600/mobile-nav-hov.png");
+}
+.me-lepi-navi-two:hover{
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    float: left;
+    background: url("https://3.bp.blogspot.com/-7oIPwahYaNM/V0Eif-3KbyI/AAAAAAAABss/nDNlwyjGgdgyP4ATUNEu0JnOyTgns-9FQCLcB/s1600/mobile-nav.png");
+}
+.me-lepi-space{
+	height:150px;
+}
+.me-lepi-input-txt{
+	cursor:default;
+	float:left;
+	padding:2px;
+	margin:8px;
+	border:none;
+	background:transparent;
+}
+.me-lepi-button-satu{
+	cursor:pointer;
+	background:#f5f5f5;
+	padding:4px;
+}
+
+#me-lepi-apzs{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 400;
+	display:none;
+}
+#me-apps-random{
+	background: cadetblue;
+    width: 100%;
+    height: 100px;
+}
+
+#me-apps-random-ban{
+	margin:0;
+	color: cadetblue;
+	font-family:sans-serif;
+}
+
+#me-apps-ban {
+    background: cadetblue;
+    float: left;
+    width: 258px;
+    height: 100px;
+}
+
+#apps-btn2{
+	margin:0 auto;
+	display:none;
+	width: 80%;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	-webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+	margin-top:-30px;
+}
+#apps-btn3{
+	margin:0 auto;
+	display:none;
+	width: 80%;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	-webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+	margin-top:-30px;
+}
+#apps-btn4{
+	margin:0 auto;
+	display:none;
+	width: 80%;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	-webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+	margin-top:-30px;
+}
+#me-apps-tampilan{
+	margin:0 auto;
+	display:none;
+	width: 80%;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	-webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+	margin-top:-30px;
+}
+
+#me-align{
+	width:90px;
+	background:#f5f5f5;
+	height:30px;
+	margin:5px auto;
+}
+#me-kiri{
+	float:left;
+	background:url("https://2.bp.blogspot.com/-3eNBHFASkZ0/V0NoBwG0e8I/AAAAAAAABtw/xycChE2Al44OICbG7ak1A0B6z3kLZlr2wCLcB/s1600/kiri.png");
+	width:20px;
+	height:20px;
+	margin:5px;
+	cursor:pointer;
+}
+#me-kiri:hover{
+	float:left;
+	background:url("https://2.bp.blogspot.com/-3eNBHFASkZ0/V0NoBwG0e8I/AAAAAAAABtw/xycChE2Al44OICbG7ak1A0B6z3kLZlr2wCLcB/s1600/kiri.png");
+	width:18px;
+	height:18px;
+	margin:5px;
+	cursor:pointer;
+	border:1px solid black;
+}
+#me-kanan{
+	float:left;
+	background:url("https://4.bp.blogspot.com/-pS1uWoMpE9A/V0NoB-lc00I/AAAAAAAABt0/ZVP_KRpoIXwqygMywLtmX3R-bg0yUftowCLcB/s1600/kanan.png");
+	width:20px;
+	height:20px;
+	margin:5px;
+	cursor:pointer;
+}
+#me-kanan:hover{
+	float:left;
+	background:url("https://4.bp.blogspot.com/-pS1uWoMpE9A/V0NoB-lc00I/AAAAAAAABt0/ZVP_KRpoIXwqygMywLtmX3R-bg0yUftowCLcB/s1600/kanan.png");
+	width:18px;
+	height:18px;
+	margin:5px;
+	cursor:pointer;
+	border:1px solid black;
+}
+#me-tengah{
+	float:left;
+	background:url("https://1.bp.blogspot.com/-CyhSSlm9Wks/V0NoBRrjriI/AAAAAAAABts/LcLRhl_sM1MTMIRNcGi1TOICMbM-93DegCLcB/s1600/Tengah.png");
+	width:20px;
+	height:20px;
+	margin:5px;
+	cursor:pointer;
+}
+#me-tengah:hover{
+	float:left;
+	background:url("https://1.bp.blogspot.com/-CyhSSlm9Wks/V0NoBRrjriI/AAAAAAAABts/LcLRhl_sM1MTMIRNcGi1TOICMbM-93DegCLcB/s1600/Tengah.png");
+	width:18px;
+	height:18px;
+	margin:5px;
+	cursor:pointer;
+	border:1px solid black;
+}
+.input {
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+}
+.joger {
+	margin-top: 40px;
+}
+#canvas {
+	cursor: crosshair;
+}
+#canvas, #html {
+	border: 1px solid #000;
+}
+.filename {
+	text-align: right;
+}
