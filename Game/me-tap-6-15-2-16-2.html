@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Me Tap™</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="http://me-radio-online.blogspot.co.id/favicon.ico" rel="icon" type="image/x-icon">
+<style>
+body, html {
+height: 100%;
+margin: 0;
+font: 400 15px/1.8 "Lato", sans-serif;
+color: #777;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fdfdfd; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #fdfdfd; 
+}
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6 {
+position: relative;
+opacity: 0.65;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.bgimg-1 {
+background-image: url("http://www.calibreworks.com/uploads/2015/12/10langkah_Image08.jpg");
+min-height: 100%;
+}
+.bgimg-2 {
+background-image: url("http://www.hsmedia.no/uploads/library/bg-contact-33degrees.jpg");
+min-height: 400px;
+}
+.bgimg-3 {
+background-image: url("https://static.pexels.com/photos/3847/jetty-landing-stage-sea-sky.jpeg");
+min-height: 400px;
+}
+.bgimg-4 {
+background-image: url("http://blogs.itb.ac.id/el52162s1t2013d201423213094muktiwinanda/files/2013/11/cloud-1.jpg");
+min-height: 400px;
+}
+.bgimg-5 {
+background-image: url("http://3.bp.blogspot.com/-l0E8APlB4cc/T7I9Nx5jEJI/AAAAAAAAFbg/kcFBTj_fAAg/s1600/Black-Wallpaper-04mapamundi.jpg");
+min-height: 400px;
+}
+.bgimg-6 {
+background-color: #ddd;
+min-height: 400px;
+}
+.caption {
+position: absolute;
+left: 0;
+top: 50%;
+width: 100%;
+text-align: center;
+color: #000;
+}
+.caption span.border {
+background-color: #111;
+color: #fff;
+padding: 18px;
+font-size: 25px;
+letter-spacing: 10px;
+}
+.bortime {
+position:relative;
+background-color: #111;
+color: #fff;
+padding: 18px;
+font-size: 25px;
+letter-spacing: 10px;
+}
+a{
+text-decoration:none;
+color: deeppink;
+}
+a:hover,
+a:focus,
+a:active{
+text-decoration:none;
+color: deeppink;
+color:lightblue;
+-webkit-transition:all 0s ease;
+-moz-transition:all 1s ease;
+-o-transition:all 1s ease;
+-ms-transition:all 1s ease;
+transition:all 1s ease;
+}
+.bortime:hover {
+background-color: #fff;
+color: #111;
+padding: 18px;
+font-size: 25px;
+letter-spacing: 10px;
+cursor:pointer;
+-webkit-transition:all 0s ease;
+-moz-transition:all 1s ease;
+-o-transition:all 1s ease;
+-ms-transition:all 1s ease;
+transition:all 1s ease;
+}
+h3 {
+letter-spacing: 5px;
+text-transform: uppercase;
+font: 20px "Lato", sans-serif;
+color: #111;
+}
+.my-back-to-top {
+position: fixed;
+bottom: 0.5em;
+right: 0.5em;
+text-decoration: none;
+padding: 0.5em;
+display: none;
+cursor:pointer;
+}
+/**! Nav **/
+.my-navbar{
+background:white;
+z-index:1;
+border-bottom:1px solid #ccc;
+}
+.my-navbar a{
+color:#2d2d2d;
+}
+.my-navbar-inverse {
+color:#2d2d2d;
+}
+.icn-nav{
+cursor: pointer;
+width: 40px;
+height: 40px;
+float: left;
+background: url("https://3.bp.blogspot.com/-7oIPwahYaNM/V0Eif-3KbyI/AAAAAAAABss/nDNlwyjGgdgyP4ATUNEu0JnOyTgns-9FQCLcB/s1600/mobile-nav.png");
+}
+.icn-nav:hover,
+.icn-nav:active{
+cursor: pointer;
+width: 40px;
+height: 40px;
+float: left;
+background: url("https://4.bp.blogspot.com/-bmcCLRpKfl8/V0Ei_t96nTI/AAAAAAAABsw/VS2GDeyDZiAi6ss_9q0VtleGEcYa6hsTQCLcB/s1600/mobile-nav-hov.png");
+}
+.affix {
+top: 0;
+width: 100%;
+}
+.txt-red{
+color:red;
+}
+.txt-blue{
+color:blue;
+}
+.txt-yellow{
+color:yellow;
+}
+.txt-purple{
+color:purple;
+}
+.txt-green{
+color:green;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+width: 70%;
+margin: auto;
+}
+.my-space{
+height:80px;
+}
+.my-td{
+padding:10px;
+}
+.my-table{
+margin:10px auto;
+text-align:left;
+width:100%;
+height:530px;
+overflow-y:auto;
+}
+canvas {
+background: url(img/awan.jpg) center top repeat-x;
+  width: 100%;
+  height:480px;
+  animation: awan-animasi 10s linear infinite;
+  -ms-animation: awan-animasi 10s linear infinite;
+  -moz-animation: awan-animasi 10s linear infinite;
+  -webkit-animation: awan-animasi 10s linear infinite;
+}
+
+@keyframes awan-animasi {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  };
+}
+
+@-webkit-keyframes awan-animasi {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  };
+}
+
+@-ms-keyframes awan-animasi {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  };
+}
+
+@-moz-keyframes awan-animasi {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  };
+}
+</style>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+</head>
+<body onload="startGame()">
+	<script>
+	var myGamePiece;
+	var myObstacles = [];
+	var myScore;
+
+	function startGame() {
+		myGamePiece = new component(30, 30, "crimson", 10, 120, "image");
+		myGamePiece.gravity = 0.05;
+		myScore = new component("20px", "Consolas", "white", 5, 20, "text");
+		myGameArea.start();
+	}
+
+	var myGameArea = {
+		canvas : document.createElement("canvas"),
+		start : function() {
+			this.canvas.width = 480;
+			this.canvas.height = 270;
+			this.context = this.canvas.getContext("2d");
+			document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+			this.frameNo = 0;
+			updateGameArea();
+			},
+		clear : function() {
+			this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+		}
+	}
+
+	function component(width, height, color, x, y, type) {
+		this.type = type;
+		this.score = 0;
+		this.width = width;
+		this.height = height;
+		this.speedX = 0;
+		this.speedY = 0;    
+		this.x = x;
+		this.y = y;
+		this.gravity = 0;
+		this.gravitySpeed = 0;
+		this.update = function() {
+			ctx = myGameArea.context;
+			if (this.type == "text") {
+				ctx.font = this.width + " " + this.height;
+				ctx.fillStyle = color;
+				ctx.fillText(this.text, this.x, this.y);
+			} else {
+				ctx.fillStyle = color;
+				ctx.fillRect(this.x, this.y, this.width, this.height);
+			}
+		}
+		this.newPos = function() {
+			this.gravitySpeed += this.gravity;
+			this.x += this.speedX;
+			this.y += this.speedY + this.gravitySpeed;
+			this.hitBottom();
+		}
+		this.hitBottom = function() {
+			var rockbottom = myGameArea.canvas.height - this.height;
+			if (this.y > rockbottom) {
+				this.y = rockbottom;
+				this.gravitySpeed = 0;
+			}
+		}
+		this.crashWith = function(otherobj) {
+			var myleft = this.x;
+			var myright = this.x + (this.width);
+			var mytop = this.y;
+			var mybottom = this.y + (this.height);
+			var otherleft = otherobj.x;
+			var otherright = otherobj.x + (otherobj.width);
+			var othertop = otherobj.y;
+			var otherbottom = otherobj.y + (otherobj.height);
+			var crash = true;
+			if ((mybottom < othertop) || (mytop > otherbottom) || (myright < otherleft) || (myleft > otherright)) {
+				crash = false;
+			}
+			return crash;
+		}
+	}
+
+	function updateGameArea() {
+		var x, height, gap, minHeight, maxHeight, minGap, maxGap;
+		for (i = 0; i < myObstacles.length; i += 1) {
+			if (myGamePiece.crashWith(myObstacles[i])) {
+				return;
+			} 
+		}
+		myGameArea.clear();
+		myGameArea.frameNo += 1;
+		if (myGameArea.frameNo == 1 || everyinterval(150)) {
+			x = myGameArea.canvas.width;
+			minHeight = 20;
+			maxHeight = 200;
+			height = Math.floor(Math.random()*(maxHeight-minHeight+1)+minHeight);
+			minGap = 50;
+			maxGap = 200;
+			gap = Math.floor(Math.random()*(maxGap-minGap+1)+minGap);
+			myObstacles.push(new component(10, height, "green", x, 0));
+			myObstacles.push(new component(10, x - height - gap, "green", x, height + gap));
+		}
+		for (i = 0; i < myObstacles.length; i += 1) {
+			myObstacles[i].x += -1;
+			myObstacles[i].update();
+		}
+		myScore.text="SCORE: " + myGameArea.frameNo;
+		myScore.update();
+		myGamePiece.newPos();
+		myGamePiece.update();
+	}
+
+	function everyinterval(n) {
+		if ((myGameArea.frameNo / n) % 1 == 0) {return true;}
+		return false;
+	}
+
+	function accelerate(n) {
+		if (!myGameArea.interval) {myGameArea.interval = setInterval(updateGameArea, 20);}
+		myGamePiece.gravity = n;
+	}
+	</script>
+	<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+		<h3 style="text-align:center;">Embed Widget</h3>
+		<p>
+			<textarea style="width: 100%;height: 100%;">&lt;iframe height='100%' src='https://cdn.rawgit.com/IyoRTML/me-lepi/master/Game/me-tap-6-15-2-16-2.html' width='500px'&gt;&lt;/iframe&gt;</textarea>
+		</p>
+	</div>
+	<div class="bgimg-1">
+		<div class="caption">
+			<span class="border"><sup>Copyright <abbr>©</abbr>
+				<a href=""><b class="txt-red">m</b><b class="txt-yellow">e</b>-<b class="txt-green">le</b><b class="txt-blue">pi</b></a></sup>
+			</span>
+		</div>
+	</div>
+	<div style="position:fixed;bottom:0; background: darkslateblue;width:100%;height: 35px;margin:0;">
+		<button style="float:left;" class="w3-btn w3-ripple" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">Me Tap!</button>
+		<div style="float:left;width:15%;padding:5px;color:white;">
+			<marquee direction="left" style="margin:0;">Game : //Me Tap\\. Cara Main : Tekan Button 'Me Tap!' Dapatkan score tertinggi dan bagikan ke teman kamu :). thx for <a href="http://www.w3schools.com">W3Schools</a></marquee>
+		</div>
+		<a href=""><button style="float:right;" class="w3-btn w3-ripple w3-red">Refresh</button></a>
+		<a href="http://twitter.com/share"><button style="float:right;" class="w3-btn w3-ripple w3-yellow">Share</button></a>
+	</div>
+</body>
+</html>
